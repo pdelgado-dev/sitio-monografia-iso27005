@@ -1,0 +1,9 @@
+/* Minimum readable sizes for supporting labels and interactive markers. */
+.brand small,.system-center small,.system-center span,.system-node small,.chain-steps span,.formula-band>div span,.matrix-panels h4 span,.matrix-legend span,.site-footer strong{font-size:max(11px,.7rem)}
+.matrix-chip{font-size:12px;min-width:34px;min-height:27px;padding:2px 6px}
+.matrix-cell{min-height:78px}
+.matrix-value,.matrix-label,.matrix-axis-impact,.matrix-axis-prob{font-size:11px}
+.risk-tabs small,.case-summary span,.timeline-event small,.treatment-grid h5,.evidence-key,.case-fineprint,.reference-count{font-size:max(11px,.72rem)}
+.route-grid a small,.section-number{font-size:max(11px,.73rem)}
+.process-pulse span,.compare-card dt{font-size:11px}
+@media(max-width:580px){.matrix-cell{min-height:66px}.matrix-chip{font-size:11px;min-width:30px;min-height:24px;padding:2px 4px}}

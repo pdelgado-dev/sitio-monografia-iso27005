@@ -1,0 +1,9 @@
+.matrix-selected{display:flex;justify-content:space-between;gap:22px;align-items:center;border:1px solid var(--deep-line);background:#1b3d42;padding:18px 22px;margin:20px 0 26px}
+.matrix-selected>div:first-child>span{display:block;color:#a3d8c9;font:.65rem var(--mono);letter-spacing:.06em}
+.matrix-selected strong{display:block;font:500 1.5rem var(--serif);margin:4px 0}
+.matrix-selected p{font-size:.78rem;color:var(--deep-muted);margin:0}
+.matrix-selected-score{text-align:right;white-space:nowrap}
+.matrix-selected-score b{font:500 2rem var(--serif)}
+.matrix-selected-score small{display:block;color:var(--deep-muted);font-size:.7rem}
+.matrix-selected-score button{margin-top:8px;border:1px solid #8dcdbd;background:transparent;color:#d7f4e9;padding:5px 10px;font-size:.7rem}
+@media(max-width:580px){.matrix-selected{display:block}.matrix-selected-score{text-align:left;margin-top:12px}}
